@@ -64,7 +64,7 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageV
             super(view);
             itemLeftLayout = view.findViewById(R.id.leftMsg);
             itemRightLayout = view.findViewById(R.id.rightMsg);
-            messageLeftText = view.findViewById(R.id.rightMsgContent);
+            messageLeftText = view.findViewById(R.id.leftMsgContent);
             messageRightText = view.findViewById(R.id.rightMsgContent);
         }
 

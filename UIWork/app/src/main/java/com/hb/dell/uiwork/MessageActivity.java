@@ -29,6 +29,7 @@ public class MessageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_message);
 
+        initMsg();
         messageInput = (EditText)findViewById(R.id.inputText);
         send = (Button)findViewById(R.id.sendButton);
         messagePanel = (RecyclerView)findViewById(R.id.recyclerView1);
