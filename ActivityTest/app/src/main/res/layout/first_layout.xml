@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 1"/>
+    
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_finid_first_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish"/>
+    
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_start_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start_second"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_start_second1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start_second1"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_open_brower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OpenBrower"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_open_self"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OpenSelf"/>
+
+</LinearLayout>
